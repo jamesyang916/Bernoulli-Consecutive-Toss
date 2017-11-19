@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dee998b8-5b9b-4538-a639-725d808f970a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Probability_Practice.py</StartupFile>
+    <StartupFile>DistributionEstimator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DistributionEstimator.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Probability_Practice.py" />
   </ItemGroup>
   <PropertyGroup>

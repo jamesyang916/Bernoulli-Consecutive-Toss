@@ -39,8 +39,8 @@ def main(k, trials):
     plt.show()
 
 if __name__ == '__main__':
-    trials = 20 # number of trials
-    size = 10 # for 2**size
+    trials = 50 # number of trials
+    size = 30 # for 2**size
     ''' 
     Plots how points A_k changes as probability
     evenly changes from 0 to 1 with increments
